@@ -1,5 +1,6 @@
 public class StringLengthCalculatorLambda {
 
+    @FunctionalInterface
     interface StringLengthCalculator {
         int findLength(String inputString);
     }
